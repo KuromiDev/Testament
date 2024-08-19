@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.top-banner{
+    width: 100%;
+    height: 5%;
+}
+
+.flex-menubar{
+    list-style-type: none;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    column-gap: 7.5%;
+    justify-content: center;
+    border-bottom-color:gray;
+    border-bottom-style: solid;
+    border-bottom-width: 1%;
+    background-color: #121214;
+}
+
+.flex-menu-item{
+    text-decoration: none;
+    color: white;
+    background-color: #121214;
+    padding: 2% 2%;
+    margin-top: 1%;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.5vw;
+    margin-bottom: .5%;
+}
+
+.flex-menu-item:hover{
+    box-shadow: 0 10px transparent,0 -5px #ffa6c9 inset, -10px 0 transparent, 10px 0 transparent;
+    
+}
+
+.container{
+    position: relative;
+    height: 35rem;
+    width: 100%;
+    background-color: rgb(110, 27, 146);
+}
+
+.main-banner{
+    background-image: linear-gradient(to bottom,#121214,transparent,#121214);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 35rem;
+    width: 100%;
+}
+
+.main-banner-2{
+    background-image: linear-gradient(to right,#121214,transparent,#121214);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 35rem;
+    width: 100%;
+}
+
+.main-banner-3{
+    background-image: radial-gradient(circle,#121214 35%,transparent 75%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 35rem;
+    width: 100%;
+}
+
+.main-banner-4{
+    overflow: hidden;
+    background: url("images/tile.png") top -1px center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    top: 0;
+    left: 0;
+    height: 35rem;
+    width: 100%;
+}
+
+.features-banner{
+    background-color: #121214;
+    width: 100%;
+    height: 1000px;
+}
