@@ -9,6 +9,17 @@ html {
 .top-banner{
     width: 100%;
     height: 5%;
+    position: fixed;
+    z-index: 50;
+}
+
+@keyframes cursorblink{
+	0% {
+		opacity: 100%;
+	}
+	50%{
+		opacity: 0%;
+	}
 }
 
 .flex-menubar{
@@ -18,9 +29,9 @@ html {
     flex-direction: row;
     column-gap: 7.5%;
     justify-content: center;
-    border-bottom-color:gray;
+    border-bottom-color: #ffa6c9;
     border-bottom-style: solid;
-    border-bottom-width: 1%;
+    border-bottom-width: 2px;
     background-color: #121214;
 }
 
@@ -34,48 +45,53 @@ html {
     font-weight: bold;
     font-size: 1.5vw;
     margin-bottom: .5%;
+    cursor: pointer;
 }
 
 .flex-menu-item:hover{
     box-shadow: 0 10px transparent,0 -5px #ffa6c9 inset, -10px 0 transparent, 10px 0 transparent;
-    
+    text-shadow: 0 0 5px #fff;
+    text-decoration: none;
 }
 
-.container{
-    position: relative;
-    height: 35rem;
-    width: 100%;
-    background-color: rgb(110, 27, 146);
+li{
+    text-decoration: none;
 }
-
 .main-banner{
+    position: relative;
+    height: 45rem;
+    width: 100%;
+    background-color: #ffa6c9;
+}
+
+.top-bottom-gradient{
     background-image: linear-gradient(to bottom,#121214,transparent,#121214);
     position: absolute;
     top: 0;
     left: 0;
-    height: 35rem;
+    height: 45rem;
     width: 100%;
 }
 
-.main-banner-2{
+.left-right-gradient{
     background-image: linear-gradient(to right,#121214,transparent,#121214);
     position: absolute;
     top: 0;
     left: 0;
-    height: 35rem;
+    height: 45rem;
     width: 100%;
 }
 
-.main-banner-3{
+.spotlight-gradient{
     background-image: radial-gradient(circle,#121214 35%,transparent 75%);
     position: absolute;
     top: 0;
     left: 0;
-    height: 35rem;
+    height: 45rem;
     width: 100%;
 }
 
-.main-banner-4{
+.tile-repeater{
     overflow: hidden;
     background: url("images/tile.png") top -1px center;
     display: flex;
@@ -85,12 +101,112 @@ html {
     flex-direction: row;
     top: 0;
     left: 0;
-    height: 35rem;
+    height: 45rem;
     width: 100%;
 }
 
+.main-text-area{
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    z-index: 25;
+    text-align: center;
+}
+
+#client-title{
+    font-size: 3.5vw;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    position: absolute;
+    left: 36%;
+    top: 15rem;
+}
+
+#client-descriptor{
+    font-size: 1vw;
+    color: rgb(137, 134, 134);
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    position: absolute;
+    left: 29.5%;
+    top: 21rem;
+}
+
+#cursor{
+    font-size: 1.5vw;
+    color: #ffa6c9;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    animation: cursorblink .75s linear infinite;
+}
+
+.buy-button{
+    text-decoration: none;
+    color: white;
+    background-color: #ffa6c9;
+    padding: 1% 2%;
+    margin-top: 1%;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.5vw;
+    position: absolute;
+    top: 25rem;
+    left: 46%;
+    border-radius: .5rem;
+    box-shadow: inset 0px 0px 20px 10px #f5b1cc;
+    cursor: pointer;
+}
+
+.buy-button:hover{
+    background-color: #f78db8;
+}
+
 .features-banner{
+    position: relative;
     background-color: #121214;
     width: 100%;
     height: 1000px;
+}
+
+#featuresbox{
+    scroll-margin-top: 7.5em;
+}
+
+.features-title{
+    left: 44%;
+    top: 5%;
+    position: absolute;
+}
+
+#feature-title-text{
+    color: white;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 3vw;
+}
+
+#features-subtext{
+    color: rgb(137, 134, 134);
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.5vw;
+    position: relative;
+    left: 27%;
+    top: 25%;
+}
+
+
+.flex-container-features{
+    display: flex;
+    flex-direction: row;
+    column-gap: 7.5%;
+    justify-content: center;
+    position: relative;
+    
+}
+
+.flex-item-features{
+    color: white;
+    margin-top: 15%;
 }
