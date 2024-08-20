@@ -57,6 +57,30 @@ html {
 li{
     text-decoration: none;
 }
+
+.signup-button{
+    text-decoration: none;
+    color: white;
+    border-color: #ffa6c9;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: .5rem;
+    padding: 1% 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.5vw;
+    position: relative;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.signup-button:hover{
+    background-color: #ffa6c9;
+    transition: background-color .2s linear;
+}
+
 .main-banner{
     position: relative;
     height: 45rem;
