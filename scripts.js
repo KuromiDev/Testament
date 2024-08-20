@@ -7,6 +7,10 @@ function featuresScroll() {
     document.getElementById("featuresbox").scrollIntoView();
 }
 
+function donationScroll() {
+    document.getElementById("paymentbox").scrollIntoView();
+}
+
 
 const phrase = ["Unmatched quality, bypasses, and features Supporting Minecraft Java Edition 1.8-1.18."];
 const el = document.getElementById("typewriter");
