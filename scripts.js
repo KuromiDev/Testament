@@ -7,8 +7,12 @@ function featuresScroll() {
     document.getElementById("featuresbox").scrollIntoView();
 }
 
-function donationScroll() {
+function buyScroll() {
     document.getElementById("paymentbox").scrollIntoView();
+}
+
+function faqScroll() {
+    document.getElementById("faqbox").scrollIntoView();
 }
 
 

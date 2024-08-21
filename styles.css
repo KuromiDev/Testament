@@ -230,7 +230,6 @@ li{
     margin-right: 5%;
     position: relative;
     flex-wrap: wrap;
-    
 }
 
 .flex-item-features{
@@ -341,5 +340,122 @@ li{
 }
 
 #paymentbox{
-    scroll-margin-top: 7.5em;
+    scroll-margin-top: 10em;
+}
+
+.faq-banner{
+    position: relative;
+    background-color: turquoise;
+    width: 100%;
+    height: 32rem;
+}
+
+#faqbox{
+    scroll-margin-top: 10em;
+}
+
+.footer{
+    position: relative;
+    background-color: red;
+    width: 100%;
+    height: 10rem;
+}
+
+
+@media (max-width: 768px) {
+
+    .features-banner{
+        height: 60rem;
+    }
+
+    .features-title{
+        top: 1%;
+    }
+
+    .signup-button{
+        margin-right: 6%;
+        padding: 1% 3%;
+    }
+
+    .flex-menu-item{
+        margin-top: 3%;
+    }
+
+    .showcase-banner{
+        height: 65rem;
+    }
+
+    .showcase-title{
+        left: 37%;
+        top: 4%;
+    }
+
+    .flex-item-showcase{
+        margin-top: 25%;
+    }
+
+    .flex-menu-item{
+        font-size: 1.5vh;
+    }
+
+    .signup-button{
+        font-size: 1.5vh;
+    }
+
+    #client-title{
+        font-size: 4vh;
+        left: 21%;
+        top: 17rem;
+    }
+
+    #client-descriptor{
+        font-size: 1.5vh;
+        left: 12.5%;
+        width: 75%;
+    }
+
+    .buy-button{
+        font-size: 2.5vh;
+        padding: 3% 6%;
+        left: 41%;
+    }
+
+    .features-title{
+        left: 39%;
+    }
+
+    #feature-title-text{
+        font-size: 3vh;
+    }
+
+    #features-subtext{
+        left: 27%;
+        font-size: 1.5vh;
+    }
+
+    .flex-item-features{
+        margin-top: 20%;
+    }
+
+    #features-icons{
+        font-size: 4vh;
+    }
+
+    .features-title-text{
+        font-size: 4.5vh;
+        margin-top: 0%;
+    }
+
+    .features-subtext{
+        font-size: 2.5vh;
+    }
+
+    #showcase-title-text{
+        font-size: 3vh;
+    }
+
+    #cursor{
+        font-size: 1.5vh;
+    }
+  
 }
