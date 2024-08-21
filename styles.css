@@ -365,7 +365,7 @@ li{
 @media (max-width: 768px) {
 
     .features-banner{
-        height: 60rem;
+        height: 72rem;
     }
 
     .features-title{
@@ -382,7 +382,7 @@ li{
     }
 
     .showcase-banner{
-        height: 65rem;
+        height: 69rem;
     }
 
     .showcase-title{
@@ -404,13 +404,13 @@ li{
 
     #client-title{
         font-size: 4vh;
-        left: 21%;
+        left: 18.5%;
         top: 17rem;
     }
 
     #client-descriptor{
         font-size: 1.5vh;
-        left: 12.5%;
+        left: 13.5%;
         width: 75%;
     }
 
@@ -435,6 +435,7 @@ li{
 
     .flex-item-features{
         margin-top: 20%;
+        height: 18rem;
     }
 
     #features-icons{
