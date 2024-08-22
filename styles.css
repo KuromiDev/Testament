@@ -89,6 +89,7 @@ li{
     background-color: transparent;
     margin-right: 5%;
     width: 9%;
+    text-align: center;
 }
 
 .signup-button:hover{
@@ -490,19 +491,7 @@ li{
         font-size: 2vh;
     }
 
-    #burger-menu-alt{
-        margin-top: 2.5%;
-        margin-left: -8.1%;
-    }
 
-    .signup-button-alt{
-        opacity: 100%;
-        pointer-events: all;
-    }
-
-    .flex-menu-item-alt{
-        opacity: 100%;
-        pointer-events: all;
     }
 
 }
