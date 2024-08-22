@@ -44,8 +44,8 @@ html {
     justify-content: center;
     width: 100%;
     overflow-y: hidden;
-    overflow-x: visible;
-    gap: 7.5%;
+    gap: 5%;
+    
     margin-right: -15%;
 }
 
@@ -455,17 +455,11 @@ li{
         font-size: 1.5vh;
     }
 
-    /* .flex-menu-item{
-        opacity: 0;
-        pointer-events:none;
-    } */
-
     .navitems {
         height: var(--navitem-height);
         margin-right: 0%;
         font-size: 4vh;
-        overflow-y: hidden;
-        overflow-x: visible;
+        
     }
 
     .signup-button{
