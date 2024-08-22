@@ -468,10 +468,10 @@ li {
     #burger-menu {
         font-size: 4vh;
         color: white;
-        margin-top: 32%;
+        margin-top: 35%;
         cursor: pointer;
         pointer-events: all;
-        margin-left: -7.5%;
+        margin-left: -90%;
     }
 
     .signup-button {
