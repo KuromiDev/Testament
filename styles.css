@@ -3,6 +3,8 @@
 }
 
 html {
+    --navitem-height: 0;
+
     scroll-behavior: smooth;
 }
 
@@ -33,6 +35,16 @@ html {
     border-bottom-style: solid;
     border-bottom-width: 2px;
     background-color: #121214;
+}
+
+.navitems {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+    gap: 7.5%;
 }
 
 .flex-menu-item{
@@ -313,7 +325,7 @@ li{
     margin-right: 5%;
     position: relative;
     flex-wrap: wrap;
-    
+
 }
 
 .flex-item-showcase{
@@ -437,10 +449,14 @@ li{
     #cursor{
         font-size: 1.5vh;
     }
-  
-    .flex-menu-item{
+
+    /* .flex-menu-item{
         opacity: 0;
         pointer-events:none;
+    } */
+
+    .navitems {
+        height: var(--navitem-height);
     }
 
     .signup-button{
