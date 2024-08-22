@@ -7,22 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'
     rel='stylesheet'>
-    <script type="module">
-        const EMPTY = "";
-        const BURGER_MENU = document.getElementById("burger-menu");
-        const NAVITEMS = document.getElementById("navitems");
-        const NAVITEM_HEIGHT_VARIABLE_NAME = "--navitem-height";
-
-        BURGER_MENU.addEventListener("click", () => {
-            let currentNavitemHeight = document.documentElement.style.getPropertyValue(NAVITEM_HEIGHT_VARIABLE_NAME);
-
-            if (currentNavitemHeight === EMPTY) {
-                currentNavitemHeight = "0";
-            }
-
-            document.documentElement.style.setProperty(NAVITEM_HEIGHT_VARIABLE_NAME, currentNavitemHeight === "0" ? "8rem" : "0");
-        });
-    </script>
+    
 </head>
 
 <body>
