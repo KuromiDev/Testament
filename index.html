@@ -6,6 +6,23 @@
     <link rel="stylesheet" type="text/css" href="styles.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script type="module">
+        const EMPTY = "";
+        const BURGER_MENU = document.getElementById("burger-menu");
+        const MENU_BAR = document.getElementById("flex-menubar");
+        const NAVITEMS = document.getElementById("navitems");
+        const NAVITEM_HEIGHT_VARIABLE = "--navitem-height";
+
+        BURGER_MENU.addEventListener("click", () => {
+            let currentNavitemsHeight = document.documentElement.style.getPropertyValue(NAVITEM_HEIGHT_VARIABLE);
+
+            if (currentNavitemsHeight === EMPTY) {
+                currentNavitemsHeight = "0";
+            }
+
+            document.documentElement.style.setProperty(NAVITEM_HEIGHT_VARIABLE, currentNavitemsHeight === "0" ? "24rem" : "0");
+        });
+    </script>
 </head>
 
 <body>
@@ -13,17 +30,20 @@
     <div class="top-banner" id="top-banner-id">
 
         <ul class="flex-menubar" id="flex-menubar-id">
-            <div class="logo"> 
-                <i class='bx bx-menu' id="burger-menu" onclick="burgerExpand()"></i>
+            <div class="logo">
+                <i class='bx bx-menu' id="burger-menu"></i>
             </div>
-            <li class="flex-menu-item" id="flex-menu-item-id" onclick="topFunction()""> Home</li>
-            <li class="flex-menu-item" id="flex-menu-item-id" onclick="featuresScroll()">Features</li>   
-            <li class="flex-menu-item" id="flex-menu-item-id" onclick="buyScroll()">Buy</li>  
-            <li class="flex-menu-item" id="flex-menu-item-id" onclick="faqScroll()">FAQ</li>  
+
+            <div class="navitems" id="navitems">
+                <li class="flex-menu-item" id="flex-menu-item-id" onclick="topFunction()""> Home</li>
+                <li class=" flex-menu-item" id="flex-menu-item-id" onclick="featuresScroll()">Features</li>
+                <li class="flex-menu-item" id="flex-menu-item-id" onclick="buyScroll()">Buy</li>
+                <li class="flex-menu-item" id="flex-menu-item-id" onclick="faqScroll()">FAQ</li>
+            </div>
             <a class="signup-button" id="signup-button-id">Sign Up</a>
         </ul>
 
-        
+
     </div>
 
     <div class="main-banner">
@@ -36,29 +56,29 @@
 
         <div class="top-bottom-gradient">
         </div>
-        
+
         <div class="left-right-gradient">
         </div>
-        
+
         <div class="spotlight-gradient">
         </div>
-        
+
         <div class="tile-repeater">
         </div>
 
-        
+
 
     </div>
 
     <div class="features-banner" id="featuresbox">
-        
+
         <div class="features-title">
             <h1 id="feature-title-text">Features</h1>
             <h2 id="features-subtext">Why Us?</h2>
         </div>
 
         <div class="flex-container-features">
-            
+
             <div class="flex-item-features">
                 <div class="features-symbol-section">
                     <i class='bx bxs-badge-dollar' id="features-icons"></i>
@@ -66,7 +86,8 @@
 
                 <div class="features-text-section">
                     <h1 class="features-title-text">Quality</h1>
-                    <h2 class="features-subtext">We have been providing quality updates to our users for the past 2 years, with a consistent and reliable schedule!</h2>
+                    <h2 class="features-subtext">We have been providing quality updates to our users for the past 2
+                        years, with a consistent and reliable schedule!</h2>
                 </div>
             </div>
 
@@ -77,10 +98,11 @@
 
                 <div class="features-text-section">
                     <h1 class="features-title-text">Customisation</h1>
-                    <h2 class="features-subtext">Every module within our client has been designed to be customised by the user, this allows you to play any way you wish!</h2>
+                    <h2 class="features-subtext">Every module within our client has been designed to be customised by
+                        the user, this allows you to play any way you wish!</h2>
                 </div>
             </div>
-            
+
             <div class="flex-item-features">
                 <div class="features-symbol-section">
                     <i class='bx bxs-terminal' id="features-icons"></i>
@@ -88,7 +110,8 @@
 
                 <div class="features-text-section">
                     <h1 class="features-title-text">Scriptable</h1>
-                    <h2 class="features-subtext">Through the use of our nifty API, you can even add your own modules, from visual to bypasses to take your gameplay to the next level!</h2>
+                    <h2 class="features-subtext">Through the use of our nifty API, you can even add your own modules,
+                        from visual to bypasses to take your gameplay to the next level!</h2>
                 </div>
             </div>
 
@@ -98,57 +121,63 @@
 
 
         <div class="showcase-banner" id="showcase-box">
-        
+
             <div class="showcase-title">
                 <h1 id="showcase-title-text">Showcase</h1>
             </div>
-    
+
             <div class="flex-container-showcase">
-                
+
                 <div class="flex-item-showcase">
-                    <iframe width="99%" height="100%" src="https://videos.pexels.com/video-files/8292924/8292924-hd_1920_1080_30fps.mp4" title="Testament Client" frameborder="0"></iframe>
+                    <iframe width="99%" height="100%"
+                        src="https://videos.pexels.com/video-files/8292924/8292924-hd_1920_1080_30fps.mp4"
+                        title="Testament Client" frameborder="0"></iframe>
                 </div>
 
                 <div class="flex-item-showcase">
-                    <iframe width="99%" height="100%" src="https://videos.pexels.com/video-files/8292924/8292924-hd_1920_1080_30fps.mp4" title="Testament Client" frameborder="0"></iframe>
+                    <iframe width="99%" height="100%"
+                        src="https://videos.pexels.com/video-files/8292924/8292924-hd_1920_1080_30fps.mp4"
+                        title="Testament Client" frameborder="0"></iframe>
                 </div>
 
                 <div class="flex-item-showcase">
-                    <iframe width="99%" height="100%" src="https://videos.pexels.com/video-files/8292924/8292924-hd_1920_1080_30fps.mp4" title="Testament Client" frameborder="0"></iframe>
+                    <iframe width="99%" height="100%"
+                        src="https://videos.pexels.com/video-files/8292924/8292924-hd_1920_1080_30fps.mp4"
+                        title="Testament Client" frameborder="0"></iframe>
                 </div>
-    
+
             </div>
 
-    </div>
-
-    
-    <div class="payment-banner" id="paymentbox">
+        </div>
 
 
-
-    </div>
+        <div class="payment-banner" id="paymentbox">
 
 
 
-
-    <div class="faq-banner" id="faqbox">
-
-
-
-    </div>
+        </div>
 
 
 
 
-    <div class="footer">
+        <div class="faq-banner" id="faqbox">
 
 
 
-    </div>
+        </div>
 
 
 
-<script src="scripts.js"></script>
+
+        <div class="footer">
+
+
+
+        </div>
+
+
+
+        <script src="scripts.js"></script>
 </body>
 
 </html>
