@@ -484,10 +484,12 @@ li{
 
     .flex-menu-item{
         margin-top: 2%;
-        font-size: 2vh;
+        font-size: 1.75vh;
     }
 
 
+    .flex-menu-item:hover{
+        box-shadow: 0 10px transparent,0 -2px #ffa6c9 inset, -10px 0 transparent, 10px 0 transparent;
     }
 
 }
