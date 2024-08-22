@@ -21,7 +21,6 @@ function burgerExpand() {
   var myContainer = document.getElementById("flex-menubar-id");
   document.getElementById("signup-button-id").style.pointerEvents = "all";
   document.getElementById("burger-menu").style.marginTop = "2.5%";
-
   if (clicked) {
     myContainer.style.flexDirection = "column";
     document.getElementById("burger-menu").style.marginTop = "2.5%";
