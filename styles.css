@@ -160,7 +160,7 @@ li {
     font-family: "Inter", sans-serif;
     font-weight: bold;
     position: absolute;
-    left: 36%;
+    left: 37%;
     top: 15rem;
 }
 
@@ -193,7 +193,7 @@ li {
     font-size: 1.5vw;
     position: absolute;
     top: 25rem;
-    left: 46%;
+    left: 47.3%;
     border-radius: 0.5rem;
     box-shadow: inset 0px 0px 20px 10px #f5b1cc;
     cursor: pointer;
@@ -215,7 +215,7 @@ li {
 }
 
 .features-title {
-    left: 43%;
+    left: 44%;
     top: 5%;
     position: absolute;
 }
@@ -330,7 +330,7 @@ li {
 .flex-item-showcase {
     color: white;
     margin-top: 15%;
-    border-color: #fff;
+    border-color: #ffa6c9;
     border-style: solid;
     border-width: 4px;
     border-radius: 0.5rem;
@@ -480,6 +480,7 @@ li {
     .flex-menu-item {
         margin-top: 2%;
         font-size: 1.8vh;
+        margin-left: 45%;
     }
 
     .flex-menu-item:hover {
