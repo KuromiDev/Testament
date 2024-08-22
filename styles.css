@@ -22,6 +22,8 @@ html {
 	}
 }
 
+
+
 .flex-menubar{
     list-style-type: none;
     overflow: hidden;
@@ -46,6 +48,11 @@ html {
     font-size: 1.5vw;
     margin-bottom: .5%;
     cursor: pointer;
+}
+
+.flex-menu-item-hidden{
+    opacity: 0;
+    pointer-events: none;
 }
 
 .flex-menu-item:hover{
@@ -437,50 +444,16 @@ li{
     #cursor{
         font-size: 1.5vh;
     }
-  
-    .flex-menu-item{
-        opacity: 0;
-        pointer-events:none;
-    }
 
     .signup-button{
-        opacity: 0;
-        pointer-events:none;
-    }
-
-    #burger-menu{
-        font-size: 4vh;
-        color: white;
-        margin-top: 32%;
-        cursor: pointer;
-        pointer-events: all;
-        margin-left: -7.5%;
-    }
-
-    .signup-button{
-        margin-right: 6%;
+        margin-right: 18%;
         padding: 1% 3%;
         font-size: 1.5vh;
     }
 
     .flex-menu-item{
-        margin-top: 2%;
+        margin-top: 3%;
         font-size: 1.5vh;
-    }
-
-    #burger-menu-alt{
-        margin-top: 2.5%;
-        margin-left: -8.1%;
-    }
-
-    .signup-button-alt{
-        opacity: 100%;
-        pointer-events: all;
-    }
-
-    .flex-menu-item-alt{
-        opacity: 100%;
-        pointer-events: all;
     }
 
 }
