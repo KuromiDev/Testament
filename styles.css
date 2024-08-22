@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    text-decoration: none !important;
 }
 
 html {
@@ -60,6 +61,15 @@ html {
     font-size: 1.5vw;
     margin-bottom: 0.5%;
     cursor: pointer;
+}
+
+.flex-menu-item a:link,
+a:visited {
+    text-decoration: none !important;
+}
+
+#flex-menu-item-id {
+    text-decoration: none !important;
 }
 
 .flex-menu-item:hover {
@@ -379,7 +389,7 @@ li {
 
     .features-title {
         top: 1%;
-        left: 39%;
+        left: 38%;
     }
 
     .showcase-banner {
@@ -387,8 +397,8 @@ li {
     }
 
     .showcase-title {
-        left: 37%;
-        top: 4%;
+        left: 36%;
+        top: 5%;
     }
 
     .flex-item-showcase {
@@ -397,24 +407,25 @@ li {
 
     #client-title {
         font-size: 4vh;
-        left: 20%;
+        left: 18%;
         top: 17rem;
     }
 
     #client-descriptor {
         font-size: 1.5vh;
-        left: 13.5%;
+        left: 13%;
         width: 75%;
     }
 
     .buy-button {
         font-size: 2.5vh;
         padding: 3% 6%;
-        left: 41%;
+        left: 40%;
     }
 
     #feature-title-text {
         font-size: 3vh;
+        margin-top: 1%;
     }
 
     #features-subtext {
@@ -424,7 +435,7 @@ li {
 
     .flex-item-features {
         margin-top: 15%;
-        height: 12rem;
+        height: 18rem;
     }
 
     #features-icons {
@@ -433,7 +444,7 @@ li {
 
     .features-title-text {
         font-size: 4.5vh;
-        margin-top: 0%;
+        margin-top: 1%;
     }
 
     .features-subtext {
@@ -468,7 +479,7 @@ li {
         margin-top: 35%;
         cursor: pointer;
         pointer-events: all;
-        margin-left: -90%;
+        margin-left: -80%;
     }
 
     .signup-button {
@@ -479,12 +490,23 @@ li {
 
     .flex-menu-item {
         margin-top: 2%;
-        font-size: 1.8vh;
+        font-size: 1.5vh;
         margin-left: 45%;
+        text-decoration: none;
     }
 
     .flex-menu-item:hover {
         box-shadow: 0 10px transparent, 0 -2px #ffa6c9 inset, -10px 0 transparent,
             10px 0 transparent;
+        text-decoration: none;
+    }
+
+    #user-menu {
+        font-size: 4vh;
+        color: white;
+        margin-top: 37.5%;
+        cursor: pointer;
+        pointer-events: all;
+        margin-left: -20%;
     }
 }
