@@ -10,14 +10,17 @@
 
 <body>
 
-    <div class="top-banner">
+    <div class="top-banner" id="top-banner-id">
 
-        <ul class="flex-menubar">
-            <li class="flex-menu-item" onclick="topFunction()"> Home</li>
-            <li class="flex-menu-item" onclick="featuresScroll()">Features</li>   
-            <li class="flex-menu-item" onclick="buyScroll()">Buy</li>  
-            <li class="flex-menu-item" onclick="faqScroll()">FAQ</li>  
-            <a class="signup-button">Sign Up</a>
+        <ul class="flex-menubar" id="flex-menubar-id">
+            <div class="logo"> 
+                <i class='bx bx-menu' id="burger-menu" onclick="burgerExpand()"></i>
+            </div>
+            <li class="flex-menu-item" id="flex-menu-item-id" onclick="topFunction()""> Home</li>
+            <li class="flex-menu-item" id="flex-menu-item-id" onclick="featuresScroll()">Features</li>   
+            <li class="flex-menu-item" id="flex-menu-item-id" onclick="buyScroll()">Buy</li>  
+            <li class="flex-menu-item" id="flex-menu-item-id" onclick="faqScroll()">FAQ</li>  
+            <a class="signup-button" id="signup-button-id">Sign Up</a>
         </ul>
 
         
