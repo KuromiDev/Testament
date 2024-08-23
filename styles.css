@@ -559,4 +559,12 @@ li {
         pointer-events: all;
         margin-left: -20%;
     }
+
+    #user-button {
+        display: block;
+        position: relative;
+        height: 30px;
+        width: 30px;
+        margin-top: -90%;
+    }
 }
