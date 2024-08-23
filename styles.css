@@ -67,10 +67,15 @@ html {
 .flex-menu-item a:link,
 a:visited {
     text-decoration-color: white !important;
+    color: white;
 }
 
 #flex-menu-item-id {
     text-decoration: none !important;
+}
+
+#flex-menu-item-id:visited {
+    color: white;
 }
 
 .flex-menu-item:hover {
