@@ -35,16 +35,6 @@ BURGER_MENU.addEventListener("click", () => {
     );
 });
 
-const EMPTY = "";
-const BURGER_MENU_SIGNUP = document.getElementById("burger-menu-signup");
-const NAVITEMS = document.getElementById("navitems");
-const NAVITEM_HEIGHT_VARIABLE_NAME = "--navitem-height";
-
-const phrase = [
-    "Unmatched quality, bypasses, and features Supporting Minecraft Java Edition 1.8-1.18.",
-];
-const el = document.getElementById("typewriter");
-
 function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
