@@ -516,7 +516,7 @@ li {
 
 @media (max-width: 768px) {
     .login-button {
-        font-size: 2vh;
+        font-size: 2.5vh;
         left: 31%;
         width: 35%;
         margin-top: 20%;
