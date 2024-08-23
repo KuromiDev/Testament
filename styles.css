@@ -261,7 +261,7 @@ li {
 .flex-item-features {
     color: white;
     margin-top: 15%;
-    height: 15rem;
+    height: 18rem;
     width: 25rem;
     background: transparent;
 }
@@ -301,6 +301,7 @@ li {
     color: rgb(137, 134, 134);
     margin-left: 4.5%;
     margin-top: 1%;
+    height: 65%;
     font-family: Poppins, Arial, Helvetica, sans-serif;
     font-weight: lighter;
     width: 90%;
@@ -373,6 +374,54 @@ li {
 
 #faqbox {
     scroll-margin-top: 10em;
+}
+
+.main-banner-signup {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: #ffa6c9;
+}
+
+.top-bottom-gradient-signup {
+    background-image: linear-gradient(to bottom, #121214, transparent, #121214);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.left-right-gradient-signup {
+    background-image: linear-gradient(to right, #121214, transparent, #121214);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.spotlight-gradient-signup {
+    background-image: radial-gradient(circle, #121214 35%, transparent 75%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.tile-repeater-signup {
+    overflow: hidden;
+    background: url("images/tile.png") top -1px center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
 }
 
 .footer {
