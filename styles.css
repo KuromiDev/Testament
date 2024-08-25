@@ -25,6 +25,14 @@ html {
     }
 }
 
+#burger-menu {
+    color: #121214;
+}
+
+#user-menu {
+    color: #121214;
+}
+
 .flex-menubar {
     list-style-type: none;
     overflow-y: hidden;
