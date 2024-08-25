@@ -40,7 +40,10 @@ function sleep(ms) {
 }
 
 let sleepTime = 20;
-
+const phrase = [
+    "Unmatched quality, bypasses, and features Supporting Minecraft Java Edition 1.8-1.18.",
+];
+const el = document.getElementById("typewriter");
 let curPhraseIndex = 0;
 
 const writeLoop = async () => {
