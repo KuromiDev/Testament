@@ -370,13 +370,92 @@ li {
 
 .payment-banner {
     position: relative;
-    background-color: green;
+    background-color: #121214;
     width: 100%;
-    height: 32rem;
+    height: 33rem;
 }
 
 #paymentbox {
     scroll-margin-top: 10em;
+}
+
+.payments-title {
+    left: 45%;
+    top: 5%;
+    position: absolute;
+}
+
+#payments-title-text {
+    color: white;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 3vw;
+}
+
+#payments-subtext {
+    color: rgb(137, 134, 134);
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.5vw;
+    position: relative;
+    left: -12%;
+    top: 27%;
+}
+
+.flex-container-payments {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.flex-item-payments {
+    margin-top: 10%;
+    color: white;
+    height: 18rem;
+    width: 25rem;
+    margin-bottom: -5%;
+}
+
+.payments-symbol-section {
+    width: 101.2%;
+    height: 10%;
+    background-color: #ffa6c9;
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+}
+
+.payments-text-section {
+    background-color: #121214;
+    width: 100%;
+    height: 100%;
+    border: solid #ffa6c9;
+}
+
+.payments-title-text {
+    font-size: 3vw;
+    color: white;
+    position: relative;
+    top: 5%;
+    left: 3.5%;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.payments-subtext {
+    font-size: 1.3vw;
+    color: rgb(137, 134, 134);
+    position: relative;
+    top: 10%;
+    left: 4.5%;
+    height: 65%;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    width: 90%;
 }
 
 .faq-banner {
@@ -575,8 +654,8 @@ li {
     }
 
     .features-title {
-        top: 1%;
-        left: 38%;
+        top: 3%;
+        left: 33%;
     }
 
     .showcase-banner {
@@ -611,13 +690,13 @@ li {
     }
 
     #feature-title-text {
-        font-size: 3vh;
+        font-size: 4.5vh;
         margin-top: 1%;
     }
 
     #features-subtext {
         left: 27%;
-        font-size: 1.5vh;
+        font-size: 2vh;
     }
 
     .flex-item-features {
@@ -639,7 +718,12 @@ li {
     }
 
     #showcase-title-text {
-        font-size: 3vh;
+        font-size: 4.5vh;
+    }
+
+    .showcase-title {
+        left: 29%;
+        top: 1%;
     }
 
     #cursor {
@@ -703,5 +787,52 @@ li {
         height: 30px;
         width: 30px;
         margin-top: -90%;
+    }
+
+    .payment-banner {
+        height: 50rem;
+    }
+
+    .payments-title-text {
+        font-size: 4.5vh;
+    }
+
+    .payments-subtext {
+        font-size: 2.5vh;
+    }
+
+    .payments-symbol-section {
+        border-top-left-radius: 0.5em;
+        border-top-right-radius: 0.5em;
+    }
+
+    .payments-title {
+        left: 36%;
+        top: -2%;
+        position: absolute;
+    }
+
+    #payments-title-text {
+        color: white;
+        font-family: Poppins, Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 4.5vh;
+    }
+
+    #payments-subtext {
+        color: rgb(137, 134, 134);
+        font-family: Poppins, Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 2vh;
+        position: relative;
+        left: -8%;
+        top: 27%;
+    }
+
+    .flex-item-payments {
+        margin-top: 25%;
+        color: white;
+        height: 18rem;
+        width: 25rem;
     }
 }
