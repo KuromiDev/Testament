@@ -381,7 +381,7 @@ li {
 
 .payments-title {
     left: 45%;
-    top: 5%;
+    top: 1%;
     position: absolute;
 }
 
@@ -399,13 +399,13 @@ li {
     font-size: 1.5vw;
     position: relative;
     left: -12%;
-    top: 27%;
+    top: 0.5rem;
 }
 
 .flex-container-payments {
     display: flex;
     flex-direction: row;
-    gap: 5%;
+    gap: 10%;
     justify-content: center;
     margin-left: 5%;
     margin-right: 5%;
@@ -418,7 +418,7 @@ li {
     color: white;
     height: 18rem;
     width: 25rem;
-    margin-bottom: -5%;
+    box-shadow: 5px 30px 30px 10px #000;
 }
 
 .payments-symbol-section {
@@ -430,9 +430,18 @@ li {
 }
 
 .payments-text-section {
-    background-color: #121214;
+    background: rgb(18, 18, 20);
+    background: radial-gradient(
+        circle,
+        rgba(18, 18, 20, 1) 32%,
+        rgba(29, 29, 32, 1) 55%,
+        rgba(37, 36, 44, 1) 94%
+    );
+    filter: blur;
     width: 100%;
     height: 100%;
+    border-bottom-right-radius: 0.5em;
+    border-bottom-left-radius: 0.5em;
     border: solid #ffa6c9;
 }
 
@@ -440,8 +449,8 @@ li {
     font-size: 3vw;
     color: white;
     position: relative;
-    top: 5%;
-    left: 3.5%;
+    top: 10%;
+    left: 7.5%;
     font-family: Poppins, Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
@@ -450,8 +459,8 @@ li {
     font-size: 1.3vw;
     color: rgb(137, 134, 134);
     position: relative;
-    top: 10%;
-    left: 4.5%;
+    top: 12%;
+    left: 8.5%;
     height: 65%;
     font-family: Poppins, Arial, Helvetica, sans-serif;
     font-weight: lighter;
@@ -663,7 +672,7 @@ li {
     }
 
     .showcase-title {
-        left: 35.5%;
+        left: 42%;
         top: 5%;
     }
 
