@@ -654,8 +654,8 @@ li {
     }
 
     .features-title {
-        top: 3%;
-        left: 33%;
+        top: -2%;
+        left: 32%;
     }
 
     .showcase-banner {
@@ -722,8 +722,8 @@ li {
     }
 
     .showcase-title {
-        left: 28.5%;
-        top: 1.5%;
+        left: 27%;
+        top: 2.5%;
     }
 
     #cursor {
@@ -790,7 +790,7 @@ li {
     }
 
     .payment-banner {
-        height: 60rem;
+        height: 55rem;
     }
 
     .payments-title-text {
@@ -807,8 +807,8 @@ li {
     }
 
     .payments-title {
-        left: 36%;
-        top: -2%;
+        left: 35%;
+        top: 1%;
         position: absolute;
     }
 
@@ -832,7 +832,7 @@ li {
     .flex-item-payments {
         margin-top: 25%;
         color: white;
-        height: 18rem;
+        height: 19rem;
         width: 25rem;
     }
 }
