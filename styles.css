@@ -824,7 +824,7 @@ li {
     }
 
     .payment-banner {
-        height: 55rem;
+        height: 60rem;
     }
 
     .payments-title-text {
@@ -866,12 +866,14 @@ li {
     .flex-item-payments {
         margin-top: 25%;
         color: white;
-        height: 19rem;
+        height: 21rem;
         width: 25rem;
     }
 
     .purchase-button {
         font-size: 2.5vh;
         padding: 3% 31%;
+        top: 1%;
+        left: 5%;
     }
 }
