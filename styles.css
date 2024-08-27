@@ -416,9 +416,10 @@ li {
 .flex-item-payments {
     margin-top: 10%;
     color: white;
-    height: 18rem;
+    height: 19rem;
     width: 25rem;
-    box-shadow: 5px 30px 30px 10px #000;
+
+    box-shadow: 5px 30px 15px 20px #000;
 }
 
 .payments-symbol-section {
@@ -465,6 +466,31 @@ li {
     font-family: Poppins, Arial, Helvetica, sans-serif;
     font-weight: lighter;
     width: 90%;
+}
+
+.purchase-button {
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+    padding: 3% 30%;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.5vw;
+    position: relative;
+    top: -1%;
+    left: 7%;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    border-color: #ffa6c9;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 0.5rem;
+    box-shadow: 5px 5px 10px 3px #000;
+}
+
+.purchase-button:hover {
+    background-color: #f78db8;
+    transition: background-color 0.2s linear;
 }
 
 .faq-banner {
