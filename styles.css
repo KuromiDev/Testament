@@ -88,7 +88,7 @@ a:visited {
 
 .flex-menu-item:hover {
     box-shadow: 0 10px transparent, 0 -5px #ffa6c9 inset, -10px 0 transparent, 10px 0 transparent;
-    transition: box-shadow 0.2s;
+    transition: box-shadow 0.201s;
     text-shadow: 0 0 5px #fff;
     text-decoration: none;
 }
