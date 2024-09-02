@@ -4,15 +4,31 @@ function topFunction() {
 }
 
 function featuresScroll() {
-    document.getElementById("featuresbox").scrollIntoView();
+    document.getElementById("feature-title-text").scrollIntoView();
 }
 
 function buyScroll() {
-    document.getElementById("paymentbox").scrollIntoView();
+    document.getElementById("payments-title-text").scrollIntoView();
 }
 
 function faqScroll() {
-    document.getElementById("faqbox").scrollIntoView();
+    document.getElementById("faq-title-text").scrollIntoView();
+}
+
+function homeJump() {
+    location.href = "index.html#navbar";
+}
+
+function featuresJump() {
+    location.href = "index.html#feature-title-text";
+}
+
+function paymentJump() {
+    location.href = "index.html#payments-title-text";
+}
+
+function faqJump() {
+    location.href = "index.html#faq-title-text";
 }
 
 const EMPTY = "";
