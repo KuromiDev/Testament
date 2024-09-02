@@ -495,13 +495,104 @@ li {
 
 .faq-banner {
     position: relative;
-    background-color: turquoise;
+    background-color: #121214;
     width: 100%;
-    height: 32rem;
+    height: 28rem;
 }
 
 #faqbox {
     scroll-margin-top: 10em;
+}
+
+.faq-title {
+    left: 46.5%;
+    top: 10%;
+    position: absolute;
+}
+
+#faq-title-text {
+    color: white;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 3vw;
+}
+
+#faq-subtext {
+    color: rgb(137, 134, 134);
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.5vw;
+    position: relative;
+    left: -32.5%;
+    top: 30%;
+}
+
+.flex-container-faq {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.flex-item-faq {
+    color: white;
+    margin-top: 12.5%;
+    height: 18rem;
+    width: 25rem;
+    background: transparent;
+}
+
+.flex-item-faq-unique {
+    color: white;
+    margin-top: 12.5%;
+    height: 18rem;
+    width: 25rem;
+    background: transparent;
+}
+
+.faq-symbol-section {
+    width: 100%;
+    height: 25%;
+    border-bottom-color: #f78db8;
+    border-bottom-width: 20px;
+    background-color: transparent;
+}
+
+.faq-text-section {
+    width: 100%;
+    height: 71.5%;
+    background-color: transparent;
+}
+
+#faq-icons {
+    color: #ffa6c9;
+    font-size: 3vw;
+    margin-left: 2.5%;
+    margin-top: 3.5%;
+}
+
+.faq-title-text {
+    font-size: 3vw;
+    color: white;
+    margin-top: 2%;
+    margin-left: 3.5%;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.faq-subtext {
+    font-size: 1.3vw;
+    color: rgb(137, 134, 134);
+    margin-left: 4.5%;
+    margin-top: 1%;
+    height: 65%;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    width: 90%;
 }
 
 .main-banner-signup {
@@ -889,5 +980,52 @@ li {
         padding: 3% 31%;
         top: 1%;
         left: 5%;
+    }
+
+    .faq-banner {
+        height: 69rem;
+    }
+
+    .faq-title {
+        top: 2.5%;
+        left: 40.5%;
+    }
+
+    #faq-subtext {
+        left: -30%;
+        top: 3%;
+        font-size: 2vh;
+    }
+
+    .flex-item-faq {
+        margin-top: 2%;
+        height: 18rem;
+        position: relative;
+        top: 50%;
+    }
+
+    .flex-item-faq-unique {
+        margin-top: 37.5%;
+        height: 18rem;
+        position: relative;
+        top: 50%;
+    }
+
+    #faq-icons {
+        font-size: 4vh;
+    }
+
+    .faq-title-text {
+        font-size: 4.5vh;
+        margin-top: -2.5%;
+    }
+
+    #faq-title-text {
+        font-size: 4.5vh;
+        margin-top: 1%;
+    }
+
+    .faq-subtext {
+        font-size: 2.5vh;
     }
 }
