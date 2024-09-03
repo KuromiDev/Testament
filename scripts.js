@@ -35,6 +35,7 @@ const EMPTY = "";
 const BURGER_MENU = document.getElementById("burger-menu");
 const NAVITEMS = document.getElementById("navitems");
 const NAVITEM_HEIGHT_VARIABLE_NAME = "--navitem-height";
+document.getElementById("navitems").style.transition = "height .4s";
 
 BURGER_MENU.addEventListener("click", () => {
     let currentNavitemHeight = document.documentElement.style.getPropertyValue(
