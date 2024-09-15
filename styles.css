@@ -70,6 +70,8 @@ html {
     font-size: 1.5vw;
     margin-bottom: 0.5%;
     cursor: pointer;
+    transition: box-shadow 0.201s ease-in-out;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
 }
 
 .flex-menu-item a:link,
@@ -88,7 +90,6 @@ a:visited {
 
 .flex-menu-item:hover {
     box-shadow: 0 10px transparent, 0 -5px #ffa6c9 inset, -10px 0 transparent, 10px 0 transparent;
-    transition: box-shadow 0.201s;
     text-shadow: 0 0 5px #fff;
     text-decoration: none;
 }
