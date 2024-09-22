@@ -117,11 +117,11 @@ li {
     margin-right: 5%;
     width: 9%;
     text-align: center;
+    transition: background-color 0.2s linear;
 }
 
 .signup-button:hover {
     background-color: #ffa6c9;
-    transition: background-color 0.2s linear;
 }
 
 .main-banner {
@@ -501,11 +501,11 @@ li {
     border-width: 2px;
     border-radius: 0.5rem;
     box-shadow: 5px 5px 10px 3px #000;
+    transition: background-color 0.2s linear;
 }
 
 .purchase-button:hover {
     background-color: #f78db8;
-    transition: background-color 0.2s linear;
 }
 
 .faq-banner {
@@ -734,6 +734,11 @@ li {
     left: 45.6%;
     background: transparent;
     cursor: pointer;
+    transition: background-color 0.2s linear;
+}
+
+.login-button:hover {
+    background: #ffa6c9;
 }
 
 .footer {
