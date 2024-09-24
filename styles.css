@@ -693,8 +693,16 @@ li {
     background: transparent;
     top: 20rem;
     left: 39%;
-
+    outline: none;
     cursor: pointer;
+}
+
+#email-box:user-valid {
+    border-color: #90ee90;
+}
+
+#email-box:user-invalid {
+    border-color: #e30022;
 }
 
 #password-box {
@@ -713,8 +721,16 @@ li {
     position: absolute;
     top: 25rem;
     left: 39%;
-
+    outline: none;
     cursor: pointer;
+}
+
+#password-box:user-valid {
+    border-color: #90ee90;
+}
+
+#password-box:user-invalid {
+    border-color: #e30022;
 }
 
 .login-button {
