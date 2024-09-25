@@ -5,8 +5,16 @@
 
 html {
     --navitem-height: 0;
-
+    scrollbar-color: #ffa6c9 #121214;
     scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar-track {
+    background: #121214;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ffa6c9;
 }
 
 .top-banner {
